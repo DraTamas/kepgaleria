@@ -3,6 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    
 }
 
 #galeria {
@@ -23,12 +24,42 @@ body {
 
 .kep img {
     width: 100%;
-    height: 500px;
+    height: 120px;
     object-fit: cover;
-    display: block;
 }
 .kep p {
     padding: 10px;
     text-align: center;
     font-weight: bold;
+}
+#nagykep {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nagykep img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nagykep-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bal, .jobb {
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bal:hover, .jobb:hover {
+    background-color: #ddd;
 }
